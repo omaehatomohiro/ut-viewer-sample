@@ -1,10 +1,11 @@
 import React from 'react'
-//import axios from 'axios';
+import { Routing } from './routes'
+
 
 
 export const App = () => {
   // axios.get('/');
   return (
-      <div>Appff</div>
+    <Routing/>
   )
 }

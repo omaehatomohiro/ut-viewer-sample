@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import '../../index.css';
 
 import { Button } from './Button';
 
@@ -24,3 +23,13 @@ export const FirstStory = Template.bind({});
 FirstStory.args = {
   /*👇 The args you need here will depend on your component */
 };
+
+
+// export default {
+//   /* 👇 The title prop is optional.
+//   * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
+//   * to learn how to generate automatic titles
+//   */
+//   title: 'Buttondd',
+//   component: Button,
+// }
